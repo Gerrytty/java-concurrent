@@ -63,6 +63,7 @@ class FizzBuzz {
                 }
                 else {
                     current = 0;
+                    end = true;
                 }
 
                 notifyAll();
@@ -88,6 +89,7 @@ class FizzBuzz {
                 }
                 else {
                     current = 0;
+                    end = true;
                 }
 
                 notifyAll();
